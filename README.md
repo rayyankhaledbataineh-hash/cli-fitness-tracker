@@ -16,4 +16,4 @@ sports science), with per-session and cumulative summaries.
 
 ## Run
 
-    python3 CLITrackerCode.py
+python3 fitness_tracker.py
