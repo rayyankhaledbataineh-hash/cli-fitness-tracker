@@ -1,1 +1,19 @@
-This project is a program that helps the user track their training sessions and post-workout recovery. The user has the option to either add, list, delete, or summarize a session or sessions. When adding a session, the user is prompted: how long the workout was, how intense was it, how many hours they slept the night before, how sore their muscles are, and how much energy do they currently have. After the user adds the session, the session then gets stored in the program. Once sessions are saved within the program, the user can then list the sessions, delete a session, or get a summary of all of the sessions combined. By recording these sessions, the user can measure their growth and performance and whether or not they have been making progress.
+# CLI Fitness Tracker
+
+A Python command-line tool for logging training sessions and monitoring
+training load.
+
+Each session logs duration, intensity (RPE 1–10), sleep, soreness, and energy.
+Training load is calculated as duration × RPE (the session-RPE method used in
+sports science), with per-session and cumulative summaries.
+
+## Commands
+
+- `add` — log a session (all inputs validated for type and range)
+- `list` — show all sessions with calculated load
+- `delete` — remove a session
+- `summarize` — totals and averages across all sessions
+
+## Run
+
+    python3 CLITrackerCode.py
